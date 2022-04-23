@@ -1,6 +1,7 @@
 ## Troubleshooting
 
 ### Update Conan
+
 Many problems that users have can be resolved by updating Conan, so if you are
 having any trouble with this project, you should start by doing that.
 
@@ -12,6 +13,7 @@ You may need to use `pip3` instead of `pip` in this command, depending on your
 platform.
 
 ### Clear Conan cache
+
 If you continue to have trouble with your Conan dependencies, you can try
 clearing your Conan cache:
 
