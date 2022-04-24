@@ -23,6 +23,8 @@ set_tests_properties(dlx.version_matches PROPERTIES PASS_REGULAR_EXPRESSION "${P
 clangformat_setup(tests.cpp)
 add_executable(dlx_tests tests.cpp)
 target_link_libraries(dlx_tests PRIVATE project_warnings project_options catch_main)
+target_link_libraries(dlx_tests PUBLIC dlx_src)
+include_directories(../dlx_src)
 
 # automatically discover tests that are defined in catch based test files you can modify the unittests. Set TEST_PREFIX
 # to whatever you want, or use different for different binaries

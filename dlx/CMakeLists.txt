@@ -1,5 +1,6 @@
 cmake_minimum_required(VERSION 3.22)
 
+project(dlx_all)
 add_subdirectory(dlx_src)
 add_subdirectory(dlx_test)
 
